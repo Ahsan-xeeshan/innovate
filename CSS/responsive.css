@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@media (min-width: 280px) and (max-width: 575px) {
+  nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 99;
+    background-color: black;
+  }
+  .navbar {
+    top: 0;
+    left: 0;
+  }
+  nav #navbarSupportedContent ul li a {
+    padding: 15px 15px;
+  }
+  nav #myNavBar ul,
+  nav #myNavBar form {
+    text-align: center;
+    margin: auto;
+  }
+  nav .mytogglerBtn i {
+    color: white !important;
+  }
+
+  .marketing-btn ul {
+    padding-left: 0;
+  }
+  .marketing-btn a {
+    font-size: 14px;
+  }
+  .marketing-btn ul li {
+    margin: 0 10px;
+  }
+  .banner_cnt {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner_cnt h1 {
+    font-size: 34px;
+  }
+  .banner_cnt p {
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 0;
+    line-height: 20px;
+  }
+  .banner_cnt form input {
+    width: 270px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .banner_cnt form button {
+    margin-top: 20px;
+    height: 30px;
+    line-height: 0;
+    font-size: 14px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .sponsor_cnt {
+    margin: 350px auto 0;
+    text-align: center;
+  }
+  .heading h2 {
+    font-size: 30px;
+    padding: 0;
+  }
+  #services .details img,
+  #services .more_traffic img {
+    display: none;
+  }
+  #services .tools .tool_details h4 {
+    font-size: 18px;
+  }
+  #services .tools .tool_details p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  #services .more_traffic p.intro {
+    font-size: 20px;
+  }
+  #services .more_traffic h4 {
+    font-size: 30px;
+  }
+  #services .more_traffic p.desc {
+    font-size: 12px;
+    padding-right: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  nav {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background-color: black;
+    z-index: 99;
+  }
+  span.navbar-toggler-icon i {
+    color: white !important;
+  }
+  .navbar {
+    top: 0;
+    left: 0;
+  }
+  .banner_cnt h1 {
+    font-size: 50px;
+  }
+  .banner_cnt p {
+    padding: 15px;
+  }
+  .sponsor_cnt {
+    margin: 330px auto 0;
+  }
+  #services .details img,
+  #services .more_traffic img {
+    display: none;
+  }
+  #services .more_traffic h4 {
+    font-size: 40px;
+  }
+  #services .more_traffic p.desc {
+    padding-right: 25px;
+  }
+  .heading h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0px 50px;
+  }
+}
